@@ -19,4 +19,4 @@ Client mode should be disconnected.
 
 Remember this will be on EVERY reboot. If you want to reverse this then
 
-`rm /etc/init.d/client_network_reset`
+`/etc/init.d/client_network_reset disable`
