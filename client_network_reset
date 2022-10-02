@@ -1,0 +1,8 @@
+#!/bin/sh /etc/rc.common
+
+START=19
+STOP=20
+
+boot() {
+       uci set wireless.@wifi-iface[5].default_disabled='1' && uci commit
+       }
